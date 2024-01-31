@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 1.4,
+          "width": 1.2
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -49,7 +49,12 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|105210026|86140826|ce942810-45b2-4588-831b-0c5d7c9db0c7|9931c7f4-30b1-4319-bae8-b9f401b443bf",
+        "courtyards_overlap|107670086|106866111|ce942810-45b2-4588-831b-0c5d7c9db0c7|78026bda-b1ff-4fff-9127-f79e7ad85510",
+        "courtyards_overlap|153351830|83638535|ce942810-45b2-4588-831b-0c5d7c9db0c7|f18fd8bd-47ad-49ff-930d-a88051eac03b",
+        "courtyards_overlap|156413915|104341907|ce942810-45b2-4588-831b-0c5d7c9db0c7|c391463a-3a7b-403d-8b27-6f3e1320ec0b"
+      ],
       "meta": {
         "version": 2
       },
@@ -105,7 +110,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.508,
+        "min_clearance": 0.43179999999999996,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.0,
         "min_hole_clearance": 0.25,
